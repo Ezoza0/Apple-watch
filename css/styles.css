@@ -1,0 +1,335 @@
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+        body {
+            margin: 0;
+            font-family: "Roboto", sans-serif;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        
+        .header-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .header-box {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .header-list {
+            display: flex;
+            gap: 30px;
+            align-items: center;
+            list-style: none;
+            margin-right: 40px;
+            padding: 0;
+        }
+        
+        .header-link {
+            color: #333;
+            text-align: center;
+            font-family: Roboto;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%;
+            /* 22.5px */
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        
+        .header-link:hover {
+            color: #EA625C;
+        }
+        
+        .header-input {
+            width: 153px;
+            border: none;
+            border-bottom: 1px solid#333;
+            padding: 6px;
+        }
+        
+        .header-input::placeholder {
+            color: #666;
+            text-align: center;
+            font-family: Roboto;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%;
+            /* 22.5px */
+        }
+        
+        .hero {
+            padding-top: 182px;
+            padding-bottom: 183px;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        .hero-box {
+            width: 490px;
+        }
+        
+        .hero-title {
+            color: #000;
+            text-align: center;
+            font-family: Roboto;
+            font-size: 50px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 120%;
+            /* 60px */
+            margin-bottom: 30px;
+            text-align: left;
+        }
+        
+        .hero-text {
+            display: flex;
+            align-items: center;
+            color: #777;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%;
+            /* 24px */
+            margin-bottom: 30px;
+        }
+        
+        .hero-text::before {
+            content: "";
+            display: block;
+            width: 6px;
+            height: 120px;
+            background-color: #888;
+            margin-right: 40px;
+        }
+        
+        .hero-btn {
+            color: #FFF;
+            text-align: center;
+            font-family: Roboto;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 150%;
+            /* 27px */
+            text-transform: uppercase;
+            background-color: #EA625C;
+            border: none;
+            padding: 12px 36px 12px 36px;
+        }
+        
+        .hero-img {
+            position: absolute;
+            top: 187px;
+            right: 0;
+        }
+        
+        .goal-section {
+            padding-top: 95px;
+            padding-bottom: 136px;
+        }
+        
+        .goal-list {
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+            padding: 0;
+        }
+        
+        .goal-item {
+            width: 280px;
+        }
+        
+        .goal-title {
+            color: #222;
+            font-family: Roboto;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 150%;
+            /* 27px */
+            text-transform: uppercase;
+            margin-bottom: 38px;
+        }
+        
+        .goal-text {
+            color: #333;
+            font-family: Roboto;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 160%;
+            /* 24px */
+            margin-bottom: 20px;
+        }
+        
+        .goal-box {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .goal-span {
+            display: block;
+            width: 8px;
+            height: 8px;
+            background-color: #ddd;
+        }
+        
+        .goal-link {
+            display: flex;
+            align-items: center;
+            color: #EA625C;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 160%;
+            /* 25.6px */
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+        
+        .goal-link::before {
+            content: "";
+            display: block;
+            width: 40px;
+            height: 3px;
+            background-color: #EA625C;
+            margin-right: 10px;
+        }
+        
+        .nike-section {
+            padding-bottom: 70px;
+        }
+        
+        .nike-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .nike-box {
+            width: 490px;
+        }
+        
+        .nike-title {
+            color: #000;
+            font-family: Roboto;
+            font-size: 50px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 120%;
+            /* 60px */
+            margin-bottom: 30px;
+        }
+        
+        .nike-text {
+            display: flex;
+            align-items: center;
+            color: #777;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%;
+            /* 24px */
+            margin-bottom: 30px;
+        }
+        
+        .nike-btn {
+            color: #FFF;
+            text-align: center;
+            font-family: Roboto;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 150%;
+            /* 27px */
+            text-transform: uppercase;
+            background: #EA625C;
+            padding: 12px 90px 12px 90px;
+            border: none;
+        }
+        
+        .nike-text::before {
+            content: "";
+            display: block;
+            width: 6px;
+            height: 96px;
+            background-color: #888;
+            margin-right: 40px;
+        }
+        
+        .control-section {
+            padding-top: 240px;
+            padding-bottom: 240px;
+            background-image: url('/Images/runners\ 1.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        
+        .control-box {
+            width: 490px;
+            margin-left: auto;
+        }
+        
+        .control-title {
+            color: #FFF;
+            font-family: Roboto;
+            font-size: 50px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 120%;
+            /* 60px */
+            margin-bottom: 30px;
+        }
+        
+        .control-text {
+            display: flex;
+            align-items: center;
+            color: #FFF;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%;
+            /* 24px */
+            margin-bottom: 30px;
+        }
+        
+        .control-btn {
+            color: #FFF;
+            text-align: center;
+            font-family: Roboto;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 150%;
+            /* 27px */
+            text-transform: uppercase;
+            background: #EA625C;
+            border: none;
+            padding: 12px 46px 12px 46px;
+        }
+        
+        .control-text::before {
+            content: "";
+            display: block;
+            width: 6px;
+            height: 128px;
+            background-color: #FFF;
+            margin-right: 40px;
+        }
